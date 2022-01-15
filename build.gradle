@@ -120,7 +120,7 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    implementation fg.deobf("cloud.lemonslice.silveroak:SilveroakOutpost-Forge-1.18.1:1.1.3-Beta")
+    implementation fg.deobf("cloud.lemonslice.silveroak:SilveroakOutpost-Forge-1.18.1:1.1.5-Beta")
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 

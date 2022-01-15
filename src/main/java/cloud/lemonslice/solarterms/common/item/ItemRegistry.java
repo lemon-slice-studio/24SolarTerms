@@ -7,7 +7,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import static cloud.lemonslice.solarterms.SolarTerms.MODID;
 
-public class ItemRegistry
+public final class ItemRegistry
 {
     public static final DeferredRegister<Item> ITEM_REGISTER = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     public static final RegistryObject<Item> FARMING_NOTE = ITEM_REGISTER.register("farming_note", FarmingNoteItem::new);

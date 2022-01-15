@@ -55,6 +55,20 @@ public abstract class BiomeNatureMixin
         }
     }
 
+    @Inject(method = "getDownfall",
+            at = @At("HEAD"),
+            cancellable = true)
+    private void injectGetDownfall(CallbackInfoReturnable<Float> cir)
+    {
+        if (this.getBiomeCategory() == Biome.BiomeCategory.SAVANNA)
+        {
+            cir.setReturnValue(0.2F);
+        }
+    }
+
     @Shadow
     protected abstract float getHeightAdjustedTemperature(BlockPos pPos);
+
+    @Shadow
+    protected abstract Biome.BiomeCategory getBiomeCategory();
 }

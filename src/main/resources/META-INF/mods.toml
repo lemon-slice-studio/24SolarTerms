@@ -27,6 +27,6 @@ side = "BOTH"
 [[dependencies.solarterms]]
 modId = "silveroakoutpost"
 mandatory = true
-versionRange = "[1.1.3-Beta,)"
+versionRange = "[1.1.5-Beta,)"
 ordering = "NONE"
 side = "BOTH"

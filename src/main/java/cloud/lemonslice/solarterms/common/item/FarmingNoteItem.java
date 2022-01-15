@@ -4,11 +4,12 @@ import cloud.lemonslice.silveroak.common.item.NormalItem;
 import cloud.lemonslice.solarterms.common.capability.CapabilityRegistry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
-import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
@@ -22,16 +23,15 @@ public class FarmingNoteItem extends NormalItem
     }
 
     @Override
-    public InteractionResult useOn(UseOnContext pContext)
+    public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand)
     {
-        return pContext.getLevel().getCapability(CapabilityRegistry.WORLD_SOLAR_TERMS).map(data ->
+        ItemStack itemStack = pPlayer.getItemInHand(pUsedHand);
+        if (pLevel.isClientSide())
         {
-            if (pContext.getPlayer() != null)
-            {
-                pContext.getPlayer().displayClientMessage(new TranslatableComponent("info.solarterms.environment.solar_term", data.getSolarTerm().getTranslation()), true);
-            }
-            return InteractionResult.SUCCESS;
-        }).orElse(InteractionResult.PASS);
+            pLevel.getCapability(CapabilityRegistry.WORLD_SOLAR_TERMS).ifPresent(data ->
+                    pPlayer.displayClientMessage(new TranslatableComponent("info.solarterms.environment.solar_term", data.getSolarTerm().getTranslation()), true));
+        }
+        return InteractionResultHolder.success(itemStack);
     }
 
     @Override

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/agave",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cactus_fruit",
+      "required": false
+    },
+    "#forge:seeds/cactus"
+  ]
+}

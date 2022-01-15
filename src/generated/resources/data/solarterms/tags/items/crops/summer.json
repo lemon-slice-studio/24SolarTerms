@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:seeds/melon",
+    {
+      "id": "#forge:seeds/quinoa",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/candle_berry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/artichoke",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/coffee_bean",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/honeydew",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/pineapple",
+      "required": false
+    },
+    "#forge:seeds/kelp"
+  ]
+}

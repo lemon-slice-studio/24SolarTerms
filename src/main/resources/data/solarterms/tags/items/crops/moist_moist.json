@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/blueberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/lettuce",
+      "required": false
+    }
+  ]
+}

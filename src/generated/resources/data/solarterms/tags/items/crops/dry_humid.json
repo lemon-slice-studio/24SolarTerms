@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/asparagus",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/jicama",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/raspberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/tomatillo",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/tomato",
+      "required": false
+    },
+    "#forge:seeds/pumpkin"
+  ]
+}

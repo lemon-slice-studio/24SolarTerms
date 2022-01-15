@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/cranberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/huckleberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/juniper_berry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/kale",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/leek",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/rye",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/yam",
+      "required": false
+    }
+  ]
+}

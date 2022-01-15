@@ -1,0 +1,82 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/amaranth",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/barley",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/bean",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/candle_berry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/chickpea",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cotton",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cumin",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/elderberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/kenaf",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/kohlrabi",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/mulberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/mustard_seeds",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/onion",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/potato",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/radish",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/rutabaga",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/soybean",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/sweet_potato",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/winter_squash",
+      "required": false
+    },
+    "#forge:seeds/wheat"
+  ]
+}

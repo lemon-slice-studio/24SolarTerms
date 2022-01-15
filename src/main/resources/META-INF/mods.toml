@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[38,)"
+license = "BSD-3-Clause License for Code"
+# issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]]
+modId = "solarterms"
+version = "${version}"
+displayName = "24 Solar Terms"
+# updateJSONURL="http://myurl.me/"
+# displayURL="http://example.com/"
+logoFile = "logo.png"
+credits = "Lemon Slice Studio"
+authors = "RoitoLeo, MalayP"
+description = ''' '''
+[[dependencies.solarterms]]
+modId = "forge"
+mandatory = true
+versionRange = "[38,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.solarterms]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18,1.19)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.solarterms]]
+modId = "silveroakoutpost"
+mandatory = true
+versionRange = "[1.1.3-Beta,)"
+ordering = "NONE"
+side = "BOTH"

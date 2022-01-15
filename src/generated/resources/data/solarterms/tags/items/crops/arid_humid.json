@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/cantaloupe",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/sisal",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/sunflower",
+      "required": false
+    }
+  ]
+}

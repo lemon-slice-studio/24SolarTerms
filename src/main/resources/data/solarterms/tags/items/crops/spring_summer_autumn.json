@@ -1,0 +1,119 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/jute",
+      "required": false
+    },
+    "#forge:seeds/carrot",
+    {
+      "id": "#forge:seeds/cabbage",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/flax",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/eggplant",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/bell_pepper",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/kenaf",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cotton",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/bean",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/kale",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/corn",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/kiwi",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/lentil",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/millet",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/oat",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/pea",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/pineapple",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/potato",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/rice",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/sisal",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/sorghum",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/soybean",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/sunflower",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/sweet_potato",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/taro",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/tea_leaf",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/tomatillo",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/tomato",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/zucchini",
+      "required": false
+    },
+    "#forge:seeds/glow_berry"
+  ]
+}

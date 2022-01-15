@@ -1,0 +1,70 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/artichoke",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/brussels_sprout",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/celery",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cucumber",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/eggplant",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/flax",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/garlic",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/kiwi",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/peanut",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/rhubarb",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/scallion",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/sesame_seeds",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/spinach",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/strawberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/turnip",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/zucchini",
+      "required": false
+    },
+    "#forge:seeds/glow_berry"
+  ]
+}

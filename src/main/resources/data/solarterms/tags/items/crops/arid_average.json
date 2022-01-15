@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/corn",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/millet",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/parsnip",
+      "required": false
+    }
+  ]
+}

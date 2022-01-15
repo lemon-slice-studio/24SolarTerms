@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/white_mushroom",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/brussels_sprout",
+      "required": false
+    }
+  ]
+}

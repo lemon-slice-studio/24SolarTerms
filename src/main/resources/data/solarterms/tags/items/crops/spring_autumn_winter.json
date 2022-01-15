@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:seeds/beetroot",
+    "#forge:seeds/sugar_cane"
+  ]
+}

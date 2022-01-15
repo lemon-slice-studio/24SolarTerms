@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/bell_pepper",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/blackberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cauliflower",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/chili_pepper",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/pea",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/pepper",
+      "required": false
+    },
+    "#forge:seeds/chorus_flower",
+    "#forge:seeds/kelp"
+  ]
+}

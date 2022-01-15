@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/lettuce",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/blueberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/broccoli",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cucumber",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cauliflower",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/blackberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/rutabaga",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/kohlrabi",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cumin",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/kohlrabi",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/mulberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/mustard_seeds",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/turnip",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/winter_squash",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/grape",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/green_grape",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cantaloupe",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cranberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/huckleberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/juniper_berry",
+      "required": false
+    }
+  ]
+}

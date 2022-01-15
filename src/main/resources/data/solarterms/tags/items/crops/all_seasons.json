@@ -1,0 +1,56 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/ginger",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/garlic",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/celery",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/barley",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/agave",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cactus_fruit",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/radish",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/rye",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/scallion",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/spinach",
+      "required": false
+    },
+    "#forge:seeds/wheat",
+    {
+      "id": "#forge:seeds/yam",
+      "required": false
+    },
+    "#forge:seeds/bamboo",
+    "#forge:seeds/cactus",
+    "#forge:seeds/chorus_flower",
+    "#forge:seeds/cocoa_bean",
+    "#forge:seeds/nether_wart",
+    "#forge:seeds/nether_vine"
+  ]
+}

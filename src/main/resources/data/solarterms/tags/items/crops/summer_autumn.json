@@ -1,0 +1,78 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/cassava",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/okra",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/arrowroot",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/chili_pepper",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/asparagus",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/elderberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/chickpea",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/amaranth",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/leek",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/onion",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/parsnip",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/peanut",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/pepper",
+      "required": false
+    },
+    "#forge:seeds/pumpkin",
+    {
+      "id": "#forge:seeds/raspberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/rhubarb",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/sesame_seeds",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/strawberry",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/water_chestnut",
+      "required": false
+    }
+  ]
+}

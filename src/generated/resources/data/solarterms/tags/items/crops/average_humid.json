@@ -1,0 +1,46 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/arrowroot",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/broccoli",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/cabbage",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/carrot",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/coffee_bean",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/ginger",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/honeydew",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/jute",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/okra",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/pineapple",
+      "required": false
+    },
+    "#forge:seeds/beetroot"
+  ]
+}

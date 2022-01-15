@@ -1,0 +1,14 @@
+{
+  "package": "cloud.lemonslice.solarterms.mixin",
+  "mixins": [
+    "BiomeNatureMixin",
+    "IceBlockMixin",
+    "SnowLayerBlockMixin",
+    "SolarAngleMixin"
+  ],
+  "client": [
+    "BiomeColorsMixin"
+  ],
+  "server": [],
+  "minVersion": "0.8"
+}

@@ -1,0 +1,40 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/cassava",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/grape",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/green_grape",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/rice",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/taro",
+      "required": false
+    },
+    "#forge:seeds/melon",
+    {
+      "id": "#forge:seeds/water_chestnut",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/tea_leaf",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/white_mushroom",
+      "required": false
+    },
+    "#forge:seeds/bamboo",
+    "#forge:seeds/sugar_cane"
+  ]
+}

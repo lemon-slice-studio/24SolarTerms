@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds/lentil",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/oat",
+      "required": false
+    },
+    {
+      "id": "#forge:seeds/quinoa",
+      "required": false
+    }
+  ]
+}

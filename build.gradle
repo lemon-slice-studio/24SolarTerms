@@ -39,7 +39,7 @@ minecraft {
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             property 'forge.logging.console.level', 'info'
-            arg "-mixin.config="+ modid +".mixins.json"
+            arg "-mixin.config=" + modid + ".mixins.json"
             mods {
                 solarterms {
                     source sourceSets.main
@@ -56,7 +56,7 @@ minecraft {
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             property 'forge.logging.console.level', 'info'
-            arg "-mixin.config="+modid+".mixins.json"
+            arg "-mixin.config=" + modid + ".mixins.json"
             mods {
                 solarterms {
                     source sourceSets.main
@@ -75,7 +75,7 @@ minecraft {
             property 'forge.logging.console.level', 'info'
 
             args '--mod', 'solarterms', '--all', '--output', file('src/generated/resources/')
-            arg "-mixin.config="+modid+".mixins.json"
+            arg "-mixin.config=" + modid + ".mixins.json"
             mods {
                 solarterms {
                     source sourceSets.main
@@ -193,6 +193,7 @@ apply plugin: 'org.spongepowered.mixin'
 
 mixin {
     add sourceSets.main, "${modid}.refmap.json"
+    config "${modid}.mixins.json"
 }
 
 tasks.withType(JavaCompile) {

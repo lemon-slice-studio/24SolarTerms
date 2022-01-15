@@ -7,6 +7,12 @@
     },
     {
       "item": "silveroakoutpost:hygrometer"
+    },
+    {
+      "item": "silveroakoutpost:thermometer"
+    },
+    {
+      "item": "silveroakoutpost:rain_gauge"
     }
   ],
   "result": {

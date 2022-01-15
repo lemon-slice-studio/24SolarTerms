@@ -6,13 +6,13 @@
     ]
   },
   "criteria": {
-    "hygrometer": {
+    "has_book": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "silveroakoutpost:hygrometer"
+              "minecraft:writable_book"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "hygrometer",
+      "has_book",
       "has_the_recipe"
     ]
   ]

@@ -1,5 +1,8 @@
 {
+  "required": true,
   "package": "cloud.lemonslice.solarterms.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "solarterms.refmap.json",
   "mixins": [
     "BiomeNatureMixin",
     "IceBlockMixin",
@@ -9,6 +12,8 @@
   "client": [
     "BiomeColorsMixin"
   ],
-  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
   "minVersion": "0.8"
 }

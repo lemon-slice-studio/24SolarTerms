@@ -10,6 +10,8 @@ acf25db2266dba063d87c631594d91f6bff03069 data/forge/tags/items/seeds/nether_vine
 142ea4adc794fd7740bb942b6a0ea9d39867984b data/forge/tags/items/seeds/nether_wart.json
 1c951c2bae0947388025fc943118e4bf04fe0393 data/forge/tags/items/seeds/potato.json
 9abd2adad77c11a1dd530aae719bed644bfef8de data/forge/tags/items/seeds/sugar_cane.json
+b618f9855cebaa39c164c345f2630e8070209c5f data/solarterms/advancements/recipes/tools/farming_note.json
+1f2d369213bf31b15d8b4c35d57bf65396470948 data/solarterms/recipes/farming_note.json
 688e954ee0cc492acb343e1aab66aadf1d8a7de7 data/solarterms/tags/items/crops/all_seasons.json
 23e3de094fe093a6758efe573740cda576d7da6d data/solarterms/tags/items/crops/arid_arid.json
 65b2ddb72ac08904bdda66300d2d40d1b23f3ec2 data/solarterms/tags/items/crops/arid_average.json

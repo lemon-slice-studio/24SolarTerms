@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "solarterms:farming_note"
+    ]
+  },
+  "criteria": {
+    "hygrometer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silveroakoutpost:hygrometer"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "solarterms:farming_note"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hygrometer",
+      "has_the_recipe"
+    ]
+  ]
+}

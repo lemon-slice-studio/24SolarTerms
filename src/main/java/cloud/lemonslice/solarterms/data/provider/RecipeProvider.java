@@ -19,7 +19,15 @@ public final class RecipeProvider extends net.minecraft.data.recipes.RecipeProvi
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer)
     {
-        ShapelessRecipeBuilder.shapeless(ItemRegistry.FARMING_NOTE.get()).requires(Items.WRITABLE_BOOK).requires(SilveroakItemsRegistry.HYGROMETER.get()).unlockedBy("hygrometer", has(SilveroakItemsRegistry.HYGROMETER.get())).group("farming_note").save(pFinishedRecipeConsumer);
+        ShapelessRecipeBuilder
+                .shapeless(ItemRegistry.FARMING_NOTE.get())
+                .requires(Items.WRITABLE_BOOK)
+                .requires(SilveroakItemsRegistry.HYGROMETER.get())
+                .requires(SilveroakItemsRegistry.THERMOMETER.get())
+                .requires(SilveroakItemsRegistry.RAIN_GAUGE.get())
+                .unlockedBy("has_book", has(Items.WRITABLE_BOOK))
+                .group("farming_note")
+                .save(pFinishedRecipeConsumer);
     }
 
     @Override

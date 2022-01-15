@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "farming_note",
+  "ingredients": [
+    {
+      "item": "minecraft:writable_book"
+    },
+    {
+      "item": "silveroakoutpost:hygrometer"
+    },
+    {
+      "item": "silveroakoutpost:thermometer"
+    },
+    {
+      "item": "silveroakoutpost:rain_gauge"
+    }
+  ],
+  "result": {
+    "item": "solarterms:farming_note"
+  }
+}

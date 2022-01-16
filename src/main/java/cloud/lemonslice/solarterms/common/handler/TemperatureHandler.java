@@ -18,7 +18,7 @@ import static net.minecraft.world.level.biome.Biome.BiomeCategory.*;
 
 public final class TemperatureHandler
 {
-    private static final List<Biome.BiomeCategory> SEASONAL_BIOME = Lists.newArrayList(TAIGA, EXTREME_HILLS, JUNGLE, MESA, PLAINS, SAVANNA, FOREST, DESERT, RIVER, SWAMP, MOUNTAIN);
+    private static final List<Biome.BiomeCategory> SEASONAL_BIOME = Lists.newArrayList(TAIGA, EXTREME_HILLS, PLAINS, FOREST, RIVER, MOUNTAIN, BEACH);
 
     public static float getCurrentTemperatureChange(Biome biome)
     {
@@ -54,17 +54,13 @@ public final class TemperatureHandler
 
     public static float getSuitableChange(Biome biome, SolarTerm solarTerm)
     {
-        if (biome.getBaseTemperature() < 0.3F)
+        if (biome.getBaseTemperature() > 0F && biome.getBaseTemperature() <= 0.8F)
         {
-            return solarTerm.getFrigidChange();
-        }
-        else if (biome.getBaseTemperature() < 0.8F)
-        {
-            return solarTerm.getTemperateChange();
+            return solarTerm.getTemperateChange() * biome.getBaseTemperature();
         }
         else
         {
-            return solarTerm.getTropicChange();
+            return 0;
         }
     }
 

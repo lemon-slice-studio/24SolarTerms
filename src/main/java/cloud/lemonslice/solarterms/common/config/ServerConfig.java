@@ -38,7 +38,7 @@ public class ServerConfig
             lastingDaysOfEachTerm = builder.comment("The lasting days of each term (24 in total).")
                     .defineInRange("LastingDaysOfEachTerm", 7, 1, 180);
             initialSolarTermIndex = builder.comment("The index of the initial solar term.")
-                    .defineInRange("InitialSolarTermIndex", 1, 1, 24);
+                    .defineInRange("InitialSolarTermIndex", 4, 1, 24);
             builder.pop();
         }
     }
